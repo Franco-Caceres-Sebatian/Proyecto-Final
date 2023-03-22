@@ -1,34 +1,36 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
-body{
+body {
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
-    
+
 
 }
 
-header{
-background-color: aquamarine;
+/* -------------------------------------------------- header -------------------------------------- */
+
+header {
+    background-color: aquamarine;
 }
 
 
-.conteiner-1{
-    
+.conteiner-1 {
+
     display: flex;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
     padding-left: 40px;
-   
+
 
 }
 
-.img-1{
+.img-1 {
     height: auto;
     width: auto;
     max-height: 250px;
@@ -36,12 +38,12 @@ background-color: aquamarine;
     padding: 20px;
 }
 
-nav{
+nav {
     padding-left: 300px;
 }
 
-ul{
-    list-style: none; 
+ul {
+    list-style: none;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -49,85 +51,121 @@ ul{
 
 }
 
-li{
+li {
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
 }
 
+/* ----------------------------------------------- main ------------------------------------------------ */
 
-main{
+main {
     background-image: url(../img/espacio-rickandmorty.jpg);
 }
 
-h2{
+/* *titulo imagen* */
+
+.titulo-1 {
     color: rgb(10, 6, 6);
 }
 
-.div-1{
+.div-1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.div-2{
-    background-color: antiquewhite;
+/* *primera seccion: sinopsis* */
+
+.div-2 {
+    background-color: rgb(240, 248, 255, 0.5);
     text-align: center;
     font-size: 20px;
     padding: 20px;
     gap: 10px;
     border-radius: 10px;
-
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
 }
 
-.titulo-1{
+.titulo-1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+.titulo-parrafo{
+    gap: 20px;
+
+}
+.parrafo-1 {
+    font-family: 'Babylonica', cursive;
+    font-size: 25px;
 }
 
+.img-3 {
+    height: 350px;
+    border-radius: 5%;
+    margin: 20px;
+}
 
-.seccion-1{
-    background-color: wheat;
+/* *segunda seccion: caracteristicas* */
+
+.titulo-2{
+background-color: rgb(240, 248, 255, 0.5);
+margin: 25px;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.seccion-1 {
+    background-color: rgb(245, 222, 179, 0.5);
     width: 220px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    margin: 20px;
     border-radius: 10px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
-#conteiner{
+#conteiner {
     width: 220px;
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.img-3{
+.img-4 {
     height: auto;
     width: auto;
     max-height: 180px;
     max-width: 180px;
-    padding: 20px; 
+    padding: 20px;
     border-radius: 50%;
 }
 
+/* *cuarta seccion: majores capitulos* */
 
 
+/* ----------------------------------------------- footer ----------------------------------------------------- */
 
-
-
-footer{
-    background-color:cadetblue;
+footer {
+    background-color: cadetblue;
     position: absolute;
     padding: 1em 0;
     position: absolute;
     bottom: 0;
     width: 100%;
-   
+
 }
