@@ -75,6 +75,10 @@ main {
     align-items: center;
 }
 
+.img-2 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
 /* *primera seccion: sinopsis* */
 
 .div-2 {
@@ -87,19 +91,21 @@ main {
     display: flex;
     justify-content: center;
     margin: 25px;
-    
+
 }
 
 .titulo-1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
     padding: 10px;
     margin: 20px;
 }
-.titulo-parrafo{
+
+.titulo-parrafo {
     gap: 20px;
 
 }
+
 .parrafo-1 {
     font-family: 'Babylonica', cursive;
     font-size: 25px;
@@ -107,39 +113,54 @@ main {
 
 .img-3 {
     height: 350px;
+    border: 3px solid black;
     border-radius: 5%;
     margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 /* *segunda seccion: caracteristicas* */
 
-.titulo-2{
-background-color: rgb(240, 248, 255, 0.5);
-margin: 25px;
-padding: 20px;
-border-radius: 10px;
-text-align: center;
-font-size: 50px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+.seccion-2{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+}
+
+.titulo-2 {
+    background-color: rgb(240, 248, 255, 0.5);
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+
 
 }
-.seccion-1 {
+
+#div-conteinerApi {
     background-color: rgb(245, 222, 179, 0.5);
     width: 220px;
-    display: flex;
-    flex-wrap: wrap;
+   
     gap: 20px;
-    justify-content: center;
+    
     padding: 20px;
-    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+flex-wrap: wrap;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
-#conteiner {
+.conteiner-2 {
     width: 220px;
-    background-color: rgb(255, 228, 196);
+
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -157,6 +178,15 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /* *cuarta seccion: majores capitulos* */
 
+.div-4 {
+    background-color: rgb(240, 248, 255, 0.5);
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
 
 /* ----------------------------------------------- footer ----------------------------------------------------- */
 
