@@ -121,15 +121,6 @@ main {
 
 /* *segunda seccion: caracteristicas* */
 
-.seccion-2{
-    display: flex;
-   
-    justify-content: center;
-    align-items: center;
-  
-    gap: 20px;
-}
-
 .titulo-2 {
     background-color: rgb(240, 248, 255, 0.5);
     margin: 25px;
@@ -138,21 +129,27 @@ main {
     text-align: center;
     font-size: 60px;
     font-family: 'Acme', sans-serif;
-
-
 }
+
+.seccion-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+}
+
+
 
 #div-conteinerApi {
     background-color: rgb(245, 222, 179, 0.5);
     width: 220px;
-   
     gap: 20px;
-    
     padding: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-flex-wrap: wrap;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -160,11 +157,11 @@ flex-wrap: wrap;
 
 .conteiner-2 {
     width: 220px;
-
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .img-4 {
@@ -186,6 +183,64 @@ flex-wrap: wrap;
     text-align: center;
     font-size: 50px;
     font-family: 'Acme', sans-serif;
+}
+
+.div-capitulo-1{
+    background-color: rgba(112, 183, 245, 0.5);
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+   gap: 30px;
+}
+
+.div-capitulo-2{
+    background-color: rgba(112, 183, 245, 0.5);
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-pagina{
+gap: 20px;
+}
+
+.name-1{
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.temporada{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.sintesis{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+
+.img-5{
+    height: 200px;
+    width: 180px;
+    border-radius: 10%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#boton-1{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* ----------------------------------------------- footer ----------------------------------------------------- */
