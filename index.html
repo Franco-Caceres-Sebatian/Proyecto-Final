@@ -8,23 +8,26 @@
     <title>Proyecto final</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
+<link rel="stylesheet" href="styles/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8b9b7a3cd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="conteiner-1">
-            <img class="img-1" src="img/rickymorty1.png" alt="logo de la serie Rick and morty">
-
-            <nav>
-                <ul>
-                    <li>Sinopsis</li>
-                    <li>Caracteristicas</li>
-                    <li>Mejores capitulos</li>
+            <img class="img-1" src="img/pngwing.com.png" alt="logo de la serie Rick and morty">
+            
+                <ul class="menu">
+                    <button class="close-menu" aria-label="Cerrar menu">
+                        <img class="icono-burger" src="img/[CITYPNG.COM]Transparent HD Handdrawn Doodle White X Close Icon - 552x469.png" alt="Cerrar Menu">
+                    </button>
+                    <li><a href="#sinopsis" class="select">SINOPSIS</a></li>
+                    <li><a href="#caracteristicas" class="select">CARACTERISTICAS</a></li>
+                    <li><a href="#mejores-capitulos" class="select">MEJORES CAPITULOS</a></li>
 
                 </ul>
-            </nav>
+            
         </div>
 
     </header>
@@ -34,10 +37,10 @@
             <img class="img-2" src="img/RIC AND MORTY5.png" alt="Rick and Morty">
         </div>
 
-        <section class="seccion-1">
+        <section class="seccion-1" id="sinopsis">
             <div class="div-2">
 
-                <img class="img-3" src="img/xd rickymorty.gif" alt="gif rick and morty">
+                <img class="img-3" src="img/rymjpg.jpg" alt="gif rick and morty">
 
                 <div class="titulo-parrafo">
                     <h2 class="titulo-1">Sinopsis</h2>
@@ -57,26 +60,16 @@
 
         </section>
 
-
-        <div class="div-3">
-            <h2 class="titulo-2">Caracteristicas</h2>
-        </div>
-
-        <section class="seccion-2">
-
-            <div id="div-conteinerApi">
-                <!-- <div class="conteiner-2">
-                    <img class="img-4" src="img/296486201_444929034311145_8591267219084721144_n.jpg" alt="fotito">
-                    <p>Nombre:</p>
-                    <p>edad:</p>
-                    <p>origin:</p>
-                </div> -->
+        <section id="caracteristicas">
+            <div class="div-3">
+                <h2 class="titulo-2">Caracteristicas</h2>
             </div>
-
-
         </section>
 
-        <section class="seccion-3">
+
+        <div id="div-conteinerApi"></div>
+
+        <section class="seccion-3" id="mejores-capitulos">
             <div class="div-4">
                 <h2>Mejores capitulos</h2>
             </div>
@@ -124,11 +117,12 @@
         </div>
 
         <div class="div-capitulo-2">
-            <img class="img-5" src="img/296486201_444929034311145_8591267219084721144_n.jpg" alt="fotito">
+            <img class="img-5" src="img/tumblr_nvhn0nYyKC1s3urzio1_1280.png" alt="fotito">
             <div class="div-pagina">
                 <h2 class="name-1">rick y morty latino</h2>
 
-                <p class="parrafo-1">La mejor pagina para ver la seria completa, en español latino y en la mejor calidad.</p>
+                <p class="parrafo-1">La mejor pagina para ver la seria completa, en español latino y en la mejor
+                    calidad.</p>
 
                 <button type="button" id="boton-1" onclick="redireccion4()">
                     Ver serie completa
@@ -139,8 +133,13 @@
     </main>
 
     <footer>
+
         <h4>Hecho por Franco Sebastian, Cáceres</h4>
         <script src="app/app.js"></script>
+
+
+
+
     </footer>
 
 </body>
