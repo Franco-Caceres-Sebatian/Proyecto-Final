@@ -8,7 +8,7 @@
     <title>Proyecto final</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f8b9b7a3cd.js" crossorigin="anonymous"></script>
 </head>
@@ -17,17 +17,15 @@
     <header>
         <div class="conteiner-1">
             <img class="img-1" src="img/pngwing.com.png" alt="logo de la serie Rick and morty">
-            
-                <ul class="menu">
-                    <button class="close-menu" aria-label="Cerrar menu">
-                        <img class="icono-burger" src="img/[CITYPNG.COM]Transparent HD Handdrawn Doodle White X Close Icon - 552x469.png" alt="Cerrar Menu">
-                    </button>
-                    <li><a href="#sinopsis" class="select">SINOPSIS</a></li>
-                    <li><a href="#caracteristicas" class="select">CARACTERISTICAS</a></li>
-                    <li><a href="#mejores-capitulos" class="select">MEJORES CAPITULOS</a></li>
 
-                </ul>
-            
+            <ul class="menu">
+
+                <li><a href="#sinopsis" class="select">SINOPSIS</a></li>
+                <li><a href="#caracteristicas" class="select">CARACTERISTICAS</a></li>
+                <li><a href="#mejores-capitulos" class="select">MEJORES CAPITULOS</a></li>
+
+            </ul>
+
         </div>
 
     </header>
@@ -67,7 +65,16 @@
         </section>
 
 
-        <div id="div-conteinerApi"></div>
+        <div id="div-conteinerApi">
+            <!-- <div class="conteiner-2">
+                <img class="img-4" src="img/rickym.jpg" alt="imagen de personaje" />
+                <h2>name</h2>
+                <p>Gender:gender </p>
+                <p>Species:species </p>
+                <p>Status:status </p>
+                <p>Origin:${character[i].origin.name} </p>
+            </div> -->
+        </div>
 
         <section class="seccion-3" id="mejores-capitulos">
             <div class="div-4">
@@ -98,7 +105,7 @@
                 recuerdo. Por esto, le pide a su abuelo que le borre este y otros recuerdos. Todo va bien hasta que Rick
                 decide restaurarlos.</p>
 
-            <button type="button" id="boton-1" onclick="redireccion2()" target="_blank">
+            <button type="button" id="boton-1" onclick="redireccion2()">
                 Ver episodio
             </button>
         </div>
@@ -135,11 +142,34 @@
     <footer>
 
         <h4>Hecho por Franco Sebastian, Cáceres</h4>
+
+
+        <div class="conteiner-footer">
+
+            <div class="div-facebook">
+                <img class="facebook" src="img/icino-facebook.png" alt="Facebook">
+                <a href="https://www.facebook.com/francosebastian.caceres">Franco Sebastian Caceres</a>
+            </div>
+
+            <div>
+                <img class="instagram" src="img/—Pngtree—instagram icon instagram logo_3584852.png" alt="instagram">
+                <a href="https://www.instagram.com/franco.s.caceres/">@franco.s.caceres</a>
+            </div>
+
+            <div>
+                <img class="linkedin" src="img/vecteezy_linkedin-icon-png_17339624_302.png" alt="linkedin">
+                <a href="">Franco Sebastian Caceres</a>
+            </div>
+
+            <div>
+                <img class="gmail" src="img/Gmail-logo.png" alt="correo electronico">
+                <a href="">francacer15@gmail.com</a>
+            </div>
+
+
+        </div>
+
         <script src="app/app.js"></script>
-
-
-
-
     </footer>
 
 </body>

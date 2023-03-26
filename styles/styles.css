@@ -25,11 +25,7 @@ header {
     left: 0;
     top: 0;
     position: fixed;
-}
-.open-menu,
-.close-menu {
-
-    display: none;
+    height: 230px;
 }
 
 .conteiner-1 {
@@ -40,7 +36,7 @@ header {
 
 }
 
-.icono-burger{
+.icono-burger {
     width: 50px;
     height: 50px;
     background-color: black;
@@ -181,14 +177,15 @@ main {
 
 
 #div-conteinerApi {
-    background-color: rgb(245, 222, 179, 0.5);
+    /* background-color: rgb(245, 222, 179, 0.5); */
     width: 220px;
     gap: 20px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -196,6 +193,7 @@ main {
 
 .conteiner-2 {
     width: 220px;
+    background-color: rgb(245, 222, 179, 0.5);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -288,12 +286,41 @@ main {
 /* ----------------------------------------------- footer ----------------------------------------------------- */
 
 footer {
-    background-image: url(../img/fondo\ footer.jpg);
+    width: 100%;
+
+    background-color: black;
     position: absolute;
     padding: 1em 0;
-    position: absolute;
+
     bottom: 0;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.conteiner-footer {
+
+    text-align: center;
+
+}
+
+.conteiner-footer div {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+}
+
+.div-facebook {
+    padding-bottom: 12px;
+}
+
+.conteiner-footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
 
 footer h4 {
@@ -301,4 +328,28 @@ footer h4 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 
+}
+
+.facebook {
+    width: 26px;
+    height: 26px;
+    margin-left: 14px;
+}
+
+.instagram {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+}
+
+.gmail {
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
 }

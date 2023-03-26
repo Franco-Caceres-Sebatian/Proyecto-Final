@@ -19,7 +19,7 @@ llamadaAPI
         console.log(data.results);
         for (let i = 0; i < character.length; i++) {
             $conteiner.innerHTML += `
-            div class = "conteiner-2">
+            <div class = "conteiner-2">
         <img class = "img-4"
         src=${character[i].image}
         alt= "imagen de personaje"
