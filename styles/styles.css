@@ -104,6 +104,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 /* *titulo imagen* */
@@ -133,6 +134,7 @@ main {
     gap: 10px;
     border-radius: 10px;
     display: flex;
+
     justify-content: center;
     margin: 25px;
 
@@ -183,8 +185,8 @@ main {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    width: 100%;
     
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -240,6 +242,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
+
+.div-padding{
+    padding-bottom: 210px;
 }
 
 .div-pagina {
